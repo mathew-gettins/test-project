@@ -122,3 +122,25 @@ footer {
 .contact-form {
     flex: 1;
 }
+
+/* Media query for mobile optimization */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5em;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    section {
+        flex: none;
+        margin-right: 0;
+    }
+    
+    .product-grid, .news-grid {
+        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    }
+}
