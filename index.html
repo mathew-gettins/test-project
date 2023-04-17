@@ -3,62 +3,69 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="tech supply" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Technology Supply Online - Shop for smartphones, accessories, and more">
+    <meta name="keywords" content="technology, smartphones, accessories, online shop">
     <title>Technology Supply Online</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <style>
+        .media-container {
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
 </head>
 
 <body>
     <header>
         <h1>Technology Supply Online</h1>
+        <img src="images/logo.png" alt="Logo" width="100" height="100">
     </header>
 
     <nav>
         <a href="index.html">Home</a>
         <a href="smartphones.html">Smartphones</a>
-        <a href="#">Accessories</a>
+        <a href="accessories.html">Accessories</a>
         <a href="contactus.html">Contact Us</a>
     </nav>
 
-
     <main>
-        
-
-        <h2>Featured Products</h2>
-        <div class="product-grid">
-            <div class="product">
-                <h3>Product 1</h3>
-                <a href="https://upload.wikimedia.org/wikipedia/commons/e/ed/Crucial_SSD_MX300_525GB-8478.jpg" target="_blank">
+        <section>
+            <h2>Featured Products</h2>
+            <div class="product-grid">
+                <article class="product">
+                    <h3>Product 1</h3>
                     <img src="images/product-1.jpg" alt="Product 1">
-                </a>
-                <p>Product description...</p>
-            </div>
-            <div class="product">
-                <h3>Product 2</h3>
-                <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnW5TuNUhgDAWuP5DxtlbhuBN8vcFleSMorQ&usqp=CAU" target="_blank">
-                    <img src="images/product-2.jpg" alt="Product 2">
-                </a>
-                <p>Product description...</p>
-            </div>
-            <div class="product">
-                <h3>Product 3</h3>
-                <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd0UaFP13nXoItprnBScMD8a5XU_VBpp-TNg&usqp=CAU" target="_blank">
+                    <p>great for all your tech needs.</p>
+                </article>
+                <article class="product">
+                    <h3>Product 2</h3>
                     <img src="images/product-3.jpg.jfif" alt="Product 3">
-                </a>
-                <p>Product description...</p>
+                    <p>tech with some style be seen.</p>
+                </article>
+
             </div>
-            <div class="product">
-                <h3>Product 4</h3>
-                <a href="https://c0.wallpaperflare.com/preview/356/29/266/apple-dark-macbook-pro.jpg" target="_blank">
-                    <img src="images/product-4.jpg" alt="Product 4">
-                </a>
-                <p>Product description...</p>
+        </section>
+        <section>
+            <h2>Latest News</h2>
+            <div class="news-grid">
+                <article>
+                    <h3>News Articles</h3>
+                    <div class="media-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/E5VMRn20M4o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509132!2d144.9580550155046!3d-37.81720997975118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218ce7e33!2sMelbourne%20VIC%2C%20Australia!5e0!3m2!1sen!2sus!4v1616450021802!5m2!1sen!2sus" width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </article>
             </div>
-        </div>
+        </section>
+
     </main>
 
     <footer>
         &copy;Student Project 2023 Technology Supply Online. All rights reserved.
     </footer>
 </body>
+
 </html>
+

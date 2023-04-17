@@ -4,42 +4,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Technology Supply Online - Shop for smartphones, accessories, and more">
+    <meta name="keywords" content="technology, smartphones, accessories, online shop">
     <title>Contact Us - Technology Supply Online</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="icon" href="favicon.ico">
 </head>
 
 <body>
     <header>
         <h1>Technology Supply Online</h1>
+        <img src="images/logo.png" alt="Logo" width="100" height="100">
     </header>
 
     <nav>
         <a href="index.html">Home</a>
         <a href="smartphones.html">Smartphones</a>
-        <a href="#">Accessories</a>
+        <a href="accessories.html">Accessories</a>
         <a href="contactus.html">Contact Us</a>
     </nav>
 
     <main>
         <h2>Contact Us</h2>
         <p>
-            We're here to help! If you have any questions or need assistance, please feel free to reach out to us using the following contact information or the contact form below.
+            We're here to help! If you have any questions or need assistance, 
+            Please feel free to reach out to us using the following contact information or the contact form below.
         </p>
 
-        <h3>Address</h3>
-        <p>
-            123 Tech Street<br>
-            Dublin, D01 A2B3<br>
-            Ireland
-        </p>
+        <div class="contact-section">
+            <div class="contact-info">
+                <h3>Address</h3>
+                <p>
+                    123 Tech Street<br>
+                    Dublin, D01 A2B3<br>
+                    Ireland
+                </p>
 
-        <h3>Phone</h3>
-        <p>+353 12 345 6789</p>
+                <h3>Phone</h3>
+                <p>+353 12 345 6789</p>
 
-        <h3>Email</h3>
-        <p>info@techsupplyonline.ie</p>
+                <h3>Email</h3>
+                <p>info@techsupplyonline.ie</p>
+            </div>
 
-        
+            <div class="contact-form">
+                <h3>Contact Form</h3>
+                <form action="http://foo.com" method="get">
+                    <label for="name">Name<span style="color: red;">*</span>:</label><br>
+                    <input type="text" id="name" name="name" required><br><br>
+                    
+                    <label for="email">Email<span style="color: red;">*</span>:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="phone">Phone:</label><br>
+                    <input type="tel" id="phone" name="phone"><br><br>
+
+                    <label for="message">Message<span style="color: red;">*</span>:</label><br>
+                    <textarea id="message" name="message" required></textarea><br><br>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
     </main>
 
     <footer>
